@@ -1,0 +1,16 @@
+{
+  "type": "module",
+  "name": "trab_indiv_m4",
+  "version": "1.0.0",
+  "description": "Uma empresa de desenvolvimento de software precisa de uma ferramenta",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./app.js"
+  },
+  "author": "Samuel Kutz",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "5.3.0",
+    "readline-sync": "1.4.10"
+  }
+}
