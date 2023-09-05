@@ -4,7 +4,7 @@ class Controller{
      * @param {Array} list 
      * @returns {Array}
      */
-    static caseSensitiveSort(list){
+    static caseSensitiveAlphabeticSort(list){
         /**
          * Essa função recebe uma lista de items que são ordenados respeitando as letras maíussculas originais.
          */
