@@ -46,50 +46,12 @@ Para instalar as dependências do projeto, execute o seguinte comando na pasta r
 npm install
 ```
 
-## Exemplos de uso
+## Comece o programa
 
-Para exemplificar, vamos 
+Após tudo estar instalado devidamente, é só rodar!
 
-1. **Exemplo de Requisição GET:**
 
-   ```shell
-   curl -X GET http://localhost:3000/api/exemplo
-   ```
-
-2. **Exemplo de Requisição POST:**
-
-   ```shell
-   curl -X POST -H "Content-Type: application/json" -d '{"chave": "valor"}' http://localhost:3000/api/exemplo
-   ```
-
-## Exemplos de Respostas
-
-Aqui estão alguns exemplos de respostas que você pode esperar do seu projeto:
-
-**Resposta de Sucesso (HTTP 200 OK):**
-
-```json
-{
-  "mensagem": "Requisição bem-sucedida.",
-  "dados": {
-    "chave": "valor"
-  }
-}
+```shell
+npm start
 ```
 
-**Resposta de Erro (HTTP 400 Bad Request):**
-
-```json
-{
-  "erro": "Requisição inválida.",
-  "detalhes": "Falta a chave 'chave' no corpo da requisição."
-}
-```
-
-## Documentação de Referência
-
-Para obter mais informações sobre como usar este projeto, consulte a documentação de referência:
-
-- [Link para a Documentação do Projeto](https://exemplo.com/documentacao)
-
-Certifique-se de atualizar os links e informações específicas do seu projeto conforme necessário. Este README deve servir como um guia rápido para outros desenvolvedores que desejam usar ou contribuir para o seu projeto.
