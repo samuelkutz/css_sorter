@@ -30,7 +30,7 @@ while(true){
     try{
         input = reader.question(chalk.yellow("> ")) 
 
-        if (input === "SAIR"){
+        if (input.toLowerCase() === "SAIR"){
             break
         }
 
@@ -53,7 +53,7 @@ if (sortedInputList){
     }
 
     console.log(output)
-}
+}  
 else {
     console.log(chalk.red("Fechando aplicação...\n"))
 }
